@@ -3,13 +3,13 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
+global.ownernumber = [ process.env.OWNER_NUMBER || "254759725734"],
 global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
 global.ytname = "YT: AyushBotz.inc"
 global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.location = "Kenyan"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "papaa-𝐌𝐃",//name of the bot
 
 //sticker details
 global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
@@ -33,7 +33,7 @@ global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti212 = true //auto block +212
-global.autoread_status = false //auto view status/story
+global.autoread_status = true//auto view status/story
 
 
 
@@ -51,8 +51,8 @@ global.mess = {
 }
 
 module.exports = {
-ownernumber: global.ownernumber,
-ownername: global.ownername,
+ownernumber: global.254759725734,
+ownername: global.papaa,
 sessionId: process.env.id || " ", // paste your session id here
 AUTO_BLOCK : process.env.PM_BLOCKER,
 STATUS_SAVER : "true",
